@@ -22,7 +22,9 @@ class WeatherForecastCard extends StatelessWidget {
             children: [
               Text(
                 time,
-                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               ),
               SizedBox(
                 height: 9,
